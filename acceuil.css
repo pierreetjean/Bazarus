@@ -1,0 +1,41 @@
+@media screen{
+	html, body{
+       /* width:1050px;*/
+        margin: .75em 1% ;/* 12px/16px 12px/1050px  */	
+        font-family:Arial, Helvetica, sans-serif;
+        /*font-size : 16px;*/ 
+        background-color: silver 
+         }
+         body>h1{
+         	width: 650px; /* On a indiqué une largeur (obligatoire) */
+   margin: auto; /* On peut donc demander à ce que le bloc soit
+centré avec auto */
+     background-color: navy;
+       font-size: 2em;
+        font-weight: bold;
+        color: white;
+        margin-bottom: 1em ; /*50px/3em;*/
+    }
+    
+    body p {
+	width: 600px;
+	margin: auto;
+	font-size: 2em;
+         	
+    }
+    body p span {
+	  padding: 5px;  	
+    }
+    a
+    {
+	 text-decoration: none;
+   color: blue;
+   font-style: italic;
+ 	
+    }
+    body table td {
+        text-align :     :right;
+        font-size: 1.5em;
+        color: navy; 
+        padding-top: 10px;
+           }
